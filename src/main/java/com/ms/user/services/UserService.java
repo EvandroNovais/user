@@ -18,6 +18,4 @@ public class UserService {
     public UserModel save(UserModel userModel){
         return userRepository.save(userModel);
     }
-
-
 }
